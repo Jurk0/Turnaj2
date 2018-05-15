@@ -67,7 +67,7 @@ class Tym extends CI_Controller
     public function create() 
     {
         $data = array(
-            'button' => 'Create',
+            'button' => 'Vytvoriť',
             'action' => site_url('tym/create_action'),
 	    'id' => set_value('id'),
 	    'Nazov' => set_value('Nazov'),

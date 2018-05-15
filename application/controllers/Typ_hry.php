@@ -66,7 +66,7 @@ class Typ_hry extends CI_Controller
     public function create() 
     {
         $data = array(
-            'button' => 'Create',
+            'button' => 'Vytvoriť',
             'action' => site_url('typ_hry/create_action'),
 	    'id' => set_value('id'),
 	    'Typ_hry' => set_value('Typ_hry'),

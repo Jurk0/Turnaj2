@@ -66,7 +66,7 @@ class Vyherca_turnaju extends CI_Controller
     public function create() 
     {
         $data = array(
-            'button' => 'Create',
+            'button' => 'Vytvoriť',
             'action' => site_url('vyherca_turnaju/create_action'),
 	    'id' => set_value('id'),
 	    'Tym_idTym' => set_value('Tym_idTym'),

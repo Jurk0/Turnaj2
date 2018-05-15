@@ -67,7 +67,7 @@ class Turnaj extends CI_Controller
     public function create() 
     {
         $data = array(
-            'button' => 'Create',
+            'button' => 'Vytvoriť',
             'action' => site_url('turnaj/create_action'),
 	    'id' => set_value('id'),
 	    'Názov_turnaju' => set_value('Názov_turnaju'),

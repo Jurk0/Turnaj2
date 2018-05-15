@@ -70,7 +70,7 @@ class Hrac extends CI_Controller
     public function create() 
     {
         $data = array(
-            'button' => 'Create',
+            'button' => 'Vytvoriť',
             'action' => site_url('hrac/create_action'),
 	    'id' => set_value('id'),
 	    'Meno' => set_value('Meno'),

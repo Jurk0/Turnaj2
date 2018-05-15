@@ -96,7 +96,7 @@ class Krajina extends CI_Controller
 
         if ($row) {
             $data = array(
-                'button' => 'Upraviť',
+                'button' => 'Vytvoriť',
                 'action' => site_url('krajina/update_action'),
 		'id' => set_value('id', $row->id),
 		'Nazov_krajiny' => set_value('Nazov_krajiny', $row->Nazov_krajiny),

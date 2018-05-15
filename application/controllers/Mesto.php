@@ -99,7 +99,7 @@ class Mesto extends CI_Controller
 
         if ($row) {
             $data = array(
-                'button' => 'Upraviť',
+                'button' => 'Vytvoriť',
                 'action' => site_url('mesto/update_action'),
 		'id' => set_value('id', $row->id),
 		'Nazov_mesta' => set_value('Nazov_mesta', $row->Nazov_mesta),
