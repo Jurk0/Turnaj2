@@ -66,7 +66,7 @@ class Mesto extends CI_Controller
     public function create() 
     {
         $data = array(
-            'button' => 'Create',
+            'button' => 'Vytvoriť',
             'action' => site_url('mesto/create_action'),
 	    'id' => set_value('id'),
 	    'Nazov_mesta' => set_value('Nazov_mesta'),
@@ -99,7 +99,7 @@ class Mesto extends CI_Controller
 
         if ($row) {
             $data = array(
-                'button' => 'Vytvoriť',
+                'button' => 'Upraviť',
                 'action' => site_url('mesto/update_action'),
 		'id' => set_value('id', $row->id),
 		'Nazov_mesta' => set_value('Nazov_mesta', $row->Nazov_mesta),

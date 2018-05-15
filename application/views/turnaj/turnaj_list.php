@@ -35,7 +35,7 @@
                                     <?php
                                 }
                             ?>
-                          <button class="btn btn-primary" type="submit">Search</button>
+                          <button class="btn btn-primary" type="submit">Vyhľadať</button>
                         </span>
                     </div>
                 </form>
@@ -54,7 +54,7 @@
                 ?>
                 <tr>
 			<td width="80px"><?php echo ++$start ?></td>
-			<td><?php echo $turnaj->Názov_turnaja ?></td>
+			<td><?php echo $turnaj->Názov_turnaju ?></td>
 			<td><?php echo $turnaj->Start_turnaja ?></td>
 			<td><?php echo $turnaj->Mesto_idMesto ?></td>
 			<td style="text-align:center" width="200px">

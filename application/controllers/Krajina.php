@@ -65,7 +65,7 @@ class Krajina extends CI_Controller
     public function create() 
     {
         $data = array(
-            'button' => 'Create',
+            'button' => 'Vytvoriť',
             'action' => site_url('krajina/create_action'),
 	    'id' => set_value('id'),
 	    'Nazov_krajiny' => set_value('Nazov_krajiny'),
@@ -96,7 +96,7 @@ class Krajina extends CI_Controller
 
         if ($row) {
             $data = array(
-                'button' => 'Vytvoriť',
+                'button' => 'Upraviť',
                 'action' => site_url('krajina/update_action'),
 		'id' => set_value('id', $row->id),
 		'Nazov_krajiny' => set_value('Nazov_krajiny', $row->Nazov_krajiny),
