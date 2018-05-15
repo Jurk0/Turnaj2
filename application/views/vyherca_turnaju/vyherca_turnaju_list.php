@@ -52,7 +52,7 @@
             {
                 ?>
                 <tr>
-			<td width="80px"><?php echo ++$start ?></td>
+			<td width="80px"><?php echo $vyherca_turnaju->id ?></td>
 			<td><?php echo $vyherca_turnaju->Tym_idTym ?></td>
 			<td><?php echo $vyherca_turnaju->Turnaj_idTurnaj ?></td>
 			<td style="text-align:center" width="200px">

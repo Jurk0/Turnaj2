@@ -56,7 +56,7 @@
             {
                 ?>
                 <tr>
-			<td width="80px"><?php echo ++$start ?></td>
+			<td width="80px"><?php echo $hrac->id ?></td>
 			<td><?php echo $hrac->Meno ?></td>
 			<td><?php echo $hrac->Priezvisko ?></td>
 			<td><?php echo $hrac->Vek ?></td>

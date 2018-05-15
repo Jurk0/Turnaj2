@@ -52,7 +52,7 @@
             {
                 ?>
                 <tr>
-			<td width="80px"><?php echo ++$start ?></td>
+			<td width="80px"><?php echo $mesto->id ?></td>
 			<td><?php echo $mesto->Nazov_mesta ?></td>
 			<td><?php echo $mesto->Krajina_idKrajina ?></td>
 			<td style="text-align:center" width="200px">

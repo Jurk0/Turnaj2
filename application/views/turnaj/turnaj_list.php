@@ -53,7 +53,7 @@
             {
                 ?>
                 <tr>
-			<td width="80px"><?php echo ++$start ?></td>
+			<td width="80px"><?php echo $turnaj->id ?></td>
 			<td><?php echo $turnaj->Názov_turnaju ?></td>
 			<td><?php echo $turnaj->Start_turnaja ?></td>
 			<td><?php echo $turnaj->Mesto_idMesto ?></td>

@@ -52,7 +52,7 @@
             {
                 ?>
                 <tr>
-			<td width="80px"><?php echo ++$start ?></td>
+			<td width="80px"><?php echo $typ_hry->id ?></td>
 			<td><?php echo $typ_hry->Typ_hry ?></td>
 			<td><?php echo $typ_hry->Nazov_hry ?></td>
 			<td style="text-align:center" width="200px">

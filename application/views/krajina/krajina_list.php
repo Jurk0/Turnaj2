@@ -51,7 +51,7 @@
             {
                 ?>
                 <tr>
-			<td width="80px"><?php echo ++$start ?></td>
+			<td width="80px"><?php echo $krajina->id ?></td>
 			<td><?php echo $krajina->Nazov_krajiny ?></td>
 			<td style="text-align:center" width="200px">
 				<?php 

@@ -9,6 +9,9 @@
 			<li class="nav-item ">
 				<a class="nav-link" href="<?php echo base_url();?>Turnaj"> Turnaje </a>
 			</li>
+			<li class="nav-item ">
+				<a class="nav-link" href="<?php echo base_url();?>Vyherca_turnaju"> Výherca turnaja </a>
+			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="<?php echo base_url();?>Zapas">Zápasy</a>
 			</li>

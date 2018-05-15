@@ -53,7 +53,7 @@
             {
                 ?>
                 <tr>
-			<td width="80px"><?php echo ++$start ?></td>
+			<td width="80px"><?php echo $tym->id ?></td>
 			<td><?php echo $tym->Nazov ?></td>
 			<td><?php echo $tym->Poznamky ?></td>
 			<td><?php echo $tym->Typ_hry_idTyp_hry ?></td>

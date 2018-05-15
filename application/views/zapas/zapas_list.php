@@ -56,7 +56,7 @@
             {
                 ?>
                 <tr>
-			<td width="80px"><?php echo ++$start ?></td>
+			<td width="80px"><?php echo $zapas->id ?></td>
 			<td><?php echo $zapas->Tym1 ?></td>
 			<td><?php echo $zapas->Tym2 ?></td>
 			<td><?php echo $zapas->Start_zapasu ?></td>
